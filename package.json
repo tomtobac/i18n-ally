@@ -1148,6 +1148,12 @@
           ],
           "description": "%config.cohere_api_model%"
         },
+        "i18n-ally.translate.cohere.translateInstructions": {
+          "type": "string",
+          "default": "You are a professional translation engine. Please translate text without explanation.",
+          "description": "%config.cohere_translate_instructions%",
+          "editPresentation": "multilineText"
+        },
         "i18n-ally.usage.scanningIgnore": {
           "type": "array",
           "items": {

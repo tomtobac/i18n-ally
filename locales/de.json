@@ -77,6 +77,7 @@
   "config.cohere_api_key": "",
   "config.cohere_api_model": "",
   "config.cohere_api_root": "",
+  "config.cohere_translate_instructions": "",
   "config.path_matcher": "Pfad für benutzerdefinierten Namespace. Dokumentation für weitere details prüfen.",
   "config.preferred_delimiter": "Bevorzugtes Trennzeichen für zusammengesetzte Schlüsse. Standardwert ist \"-\"",
   "config.prompt_translating_source": "Aufforderung zur Auswahl der Quellsprache bei jeder Verwendung. Wenn false, die Quellsprache wird aus der Konfiguration gelesen.",

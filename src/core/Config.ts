@@ -596,6 +596,10 @@ export class Config {
     return this.getConfig<string>('translate.cohere.apiModel') ?? 'command-r7b-12-2024'
   }
 
+  static get cohereTranslateInstructions() {
+    return this.getConfig<string>('translate.cohere.translateInstructions') ?? 'You are a professional translation engine. Please translate text without explanation.'
+  }
+
   static get telemetry(): boolean {
     return workspace.getConfiguration().get('telemetry.enableTelemetry') as boolean
   }

@@ -4,16 +4,9 @@ import { Config } from '~/core'
 
 export default class CohereTranslate extends TranslateEngine {
   apiRoot = 'https://api.cohere.com'
-  systemPrompt = `You are a professional translation engine.
-Please follow these rules strictly:
-
-1. Only provide the translation of the text. Do not add any additional information.
-2. Do not translate tags, e.g., <cta>TEXT_TO_TRANSLATE</cta>.
-3. Do not translate variable names used for interpolation, e.g., {item}.
-4. Do not translate JSON keys, only translate the values.
-5. Maintain the original capitalization of the text.`
 
   async translate(options: TranslateOptions) {
+    const systemPrompt = Config.cohereTranslateInstructions
     const apiKey = Config.cohereApiKey
     let apiRoot = this.apiRoot
     if (Config.cohereApiRoot) apiRoot = Config.cohereApiRoot.replace(/\/$/, '')
@@ -26,7 +19,7 @@ Please follow these rules strictly:
         messages: [
           {
             role: 'system',
-            content: this.systemPrompt,
+            content: systemPrompt,
           },
           {
             role: 'user',
