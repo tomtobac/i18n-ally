@@ -31,6 +31,7 @@ export default class CohereTranslate extends TranslateEngine {
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${apiKey}`,
+          'X-Client-Name': 'i18n-ally',
         },
       },
     )
