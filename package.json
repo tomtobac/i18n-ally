@@ -1,5 +1,5 @@
 {
-  "publisher": "lokalise",
+  "publisher": "tomtobac",
   "name": "i18n-ally",
   "version": "2.13.1",
   "displayName": "i18n Ally",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lokalise/i18n-ally"
+    "url": "https://github.com/tomtobac/i18n-ally"
   },
   "main": "./dist/extension",
   "scripts": {
@@ -168,8 +168,8 @@
     "onLanguage:svelte"
   ],
   "icon": "res/logo.png",
-  "homepage": "https://github.com/lokalise/i18n-ally",
-  "bugs": "https://github.com/lokalise/i18n-ally/issues",
+  "homepage": "https://github.com/tomtobac/i18n-ally",
+  "bugs": "https://github.com/tomtobac/i18n-ally/issues",
   "contributes": {
     "commands": [
       {
