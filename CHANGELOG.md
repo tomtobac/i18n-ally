@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.14.1](https://github.com/tomtobac/i18n-ally/compare/v2.14.0...v2.14.1) (2025-08-29)
+
+
+### 🐞 Bug Fixes
+
+* remove restrictive enum constraint for Cohere model configuration ([c46dc6f](https://github.com/tomtobac/i18n-ally/commit/c46dc6fb7b48580e6faa6305b7aa9eadfc3d6b40))
+
 ## [2.14.0](https://github.com/tomtobac/i18n-ally/compare/v2.13.2...v2.14.0) (2025-08-29)
 
 
