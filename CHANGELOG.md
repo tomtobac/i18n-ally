@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.14.0](https://github.com/tomtobac/i18n-ally/compare/v2.13.2...v2.14.0) (2025-08-29)
+
+
+### ⚡ Features
+
+* add cohere as new translate engine ([e0c41b5](https://github.com/tomtobac/i18n-ally/commit/e0c41b5af988b083917cf5de34c634771a9b34ff))
+* add cohere_translate_instructions configuration for translation customization ([e4e1df6](https://github.com/tomtobac/i18n-ally/commit/e4e1df67f0d089623f1b8612f60d56ecdba105ea))
+* add X-Client-Name header to Cohere translation requests ([621895e](https://github.com/tomtobac/i18n-ally/commit/621895eb783f08ec4bcbc93242f26d010b168f66))
+
 ### 2.13.2 (2025-08-29)
 
 
