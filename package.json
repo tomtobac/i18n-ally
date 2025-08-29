@@ -1140,12 +1140,7 @@
         },
         "i18n-ally.translate.cohere.apiModel": {
           "type": "string",
-          "default": "command-r7b-12-2024",
-          "enum": [
-            "command-r7b-12-2024",
-            "command-r-plus-08-2024",
-            "command-r-08-2024"
-          ],
+          "default": "command-a-translate-08-2025",
           "description": "%config.cohere_api_model%"
         },
         "i18n-ally.translate.cohere.translateInstructions": {
